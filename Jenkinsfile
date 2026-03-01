@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/Kruthika-Thonta/devops_lab5_jenkins_calculator.git'
+                git branch: 'main', url:'https://github.com/Kruthika-Thonta/devops_lab5_jenkins_calculator.git'
             }
         }
 
